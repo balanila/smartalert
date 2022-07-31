@@ -9,7 +9,7 @@ Clone [github repo](https://github.com/balanila/smartalert.git "Project page on 
 
 ```sh
 #!/bin/bash
-SMART_PARAMS="1 5 10 187 123 177 178 179 240 241 242" #Write S.M.A.R.T. attrubutes space separated
+SMART_PARAMS="1 5 10 187 123 177 178 179 240" #Write S.M.A.R.T. attrubutes space separated
 TLGRM_TOKEN="0123456789:AABCD_186Bku5E8TCFaqBUx48jwkt5JbkA4" #Your telegram API Token
 TLGRM_CHAT_ID="987654321" #Your chat ID
 CHECK_INTERVAL="3600" #in seconds. Optional. By default interval = 1h
