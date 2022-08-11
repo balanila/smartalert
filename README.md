@@ -10,8 +10,10 @@ Clone [github repo](https://github.com/balanila/smartalert.git "Project page on 
 ```sh
 #!/bin/bash
 SMART_PARAMS="1 5 10 187 123 177 178 179 240" #Write S.M.A.R.T. attrubutes space separated
+
 TLGRM_TOKEN="YOUR_TELEGRAM_API_TOKEN" #Your telegram API Token
 TLGRM_CHAT_ID="YOUR_TELEGRAM_CHAT_ID" #Your chat ID
+
 CHECK_INTERVAL="3600" #in seconds. Optional. By default interval = 1h
 HOSTNAME=$(hostname)
 device=$(lsblk -a | grep disk | awk '{ print $1 }')
